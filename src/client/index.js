@@ -1,10 +1,13 @@
 import { handleSubmit } from './js/formHandler.js'
 import { checkForName } from './js/nameChecker.js'
+
 import './styles/resets.scss'
 import './styles/base.scss'
 import './styles/footer.scss'
 import './styles/form.scss'
 import './styles/header.scss'
 
-alert("I exist");
-console.log("why does it not show?");
+export {
+	checkForName,
+	handleSubmit
+}
